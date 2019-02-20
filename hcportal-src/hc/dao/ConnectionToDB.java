@@ -29,9 +29,9 @@ public class ConnectionToDB {
 			// load the properties file
 
 			// assign db parameters
-			String url = "jdbc:mysql://clouddbmysql.ccppgde3p5wu.us-east-2.rds.amazonaws.com:3306/cloudDBMysql";
-			String user = "javaToCloud";
-			String password = "javaToCloud2019";
+			String url = "jdbc:mysql://*******:3306/*****";
+			String user = "******";
+			String password = "*******";
 			// create a connection to the database
 			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 			conn = (Connection) DriverManager.getConnection(url, user, password);
